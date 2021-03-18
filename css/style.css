@@ -1,0 +1,378 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "galano", "Helvetica", "SF Pro Text", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+#headerBlock {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  backdrop-filter: blur(30px);
+  transform: translate3d(0, 0, 0);
+}
+.leftheader {
+  width: 60%;
+  height: 70px;
+  padding: 20px;
+  padding-left: 120px;
+}
+.rightheader {
+  display: flex;
+
+  width: 40%;
+  padding: 20px;
+}
+.rightheader div {
+  padding: 0 20px;
+}
+.atomize a {
+  color: black;
+  font-size: 15px;
+}
+.atomize a:hover {
+  color: skyblue;
+}
+.demo a {
+  color: orangered;
+  font-size: 15px;
+  font-weight: bold;
+}
+.demo a:hover {
+  color: blue;
+}
+#headerBlock article {
+  display: flex;
+  width: 100%;
+  border: 1px solid #fff9f9;
+}
+.headerbutton {
+  width: 100px;
+  height: 150%;
+  position: relative;
+  top: -10px;
+  background-color: orangered;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.headerbutton a {
+  text-decoration: none;
+  color: #fff;
+}
+/*---------------------button block starts-----------------------*/
+#buttonblock article {
+  background-color: #fff;
+  text-align: center;
+  height: 150px;
+}
+
+.button {
+  background-color: rgb(235, 231, 231);
+  width: 13%;
+  margin-left: 600px;
+  height: 35px;
+  position: relative;
+  top: 80px;
+  border-radius: 10px;
+}
+.button div {
+  padding-top: 4px;
+}
+.button1 {
+  border-radius: 5px;
+  padding: 0 10px;
+  border: none;
+  background-color: white;
+}
+.button2 {
+  border-radius: 5px;
+  padding: 0 10px;
+  border: none;
+}
+.button1 img {
+  position: relative;
+  top: 2px;
+}
+.button2 img {
+  position: relative;
+  top: 2px;
+}
+.button1 a {
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+}
+.button2 a {
+  text-decoration: none;
+  color: grey;
+}
+/*----------------button block ends------------*/
+/*-----------------Design Block starts-----------------*/
+.designinterface,
+h1,
+h4 {
+  text-align: center;
+  padding: 10px;
+}
+.headingh1 {
+  font-size: 60px;
+}
+.headingh4 {
+  color: rgb(143, 141, 141);
+}
+.designimg {
+  text-align: center;
+}
+/*------------------Design block ends-------------*/
+/*--------------------modul block-----------------*/
+#modularblock article div {
+  display: flex;
+  padding: 20px 49px;
+  font-size: 12px;
+}
+#modularblock p {
+  text-align: justify;
+  color: rgb(182, 180, 180);
+}
+#modularblock b {
+  color: black;
+}
+/*-------------------------accelerate block--------------------*/
+#accelerateblock article {
+  display: flex;
+  padding-top: 50px;
+  margin-top: 180px;
+}
+.leftaccelerate {
+  width: 60%;
+  background-color: #fff;
+  height: 400px;
+  padding: 10px;
+  font-size: 50px;
+  padding: 40px 20px;
+}
+.leftacceleratecontent {
+  color: gray;
+}
+.leftaccelerate1 {
+  padding-left: 70px;
+  padding-top: 40px;
+}
+.leftacceleratebutton button {
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+
+  font-weight: bolder;
+  font-size: 18px;
+  border: 1px solid rgb(252, 150, 113);
+  position: relative;
+  left: 100px;
+}
+.leftacceleratebutton button a {
+  text-decoration: none;
+  color: orangered;
+}
+/*-----------------what inside block starts--------------------*/
+#whatinside {
+  background-color: rgb(255, 255, 255);
+  margin-top: 150px;
+}
+.whatinside1 {
+  display: flex;
+}
+.whatinside2 {
+  font-size: 50px;
+  padding: 10px;
+  padding-bottom: 80px;
+  padding-left: 150px;
+  font-weight: bold;
+  width: 50%;
+}
+.whatinside3 {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: rgb(153, 152, 152);
+}
+.whatinside4 {
+  padding-left: 100px;
+}
+hr {
+  width: 90%;
+  margin-left: 60px;
+}
+/*--------------------trust block starts-------------------*/
+#trustblock article {
+  background-color: #fff;
+  width: 100%;
+}
+.trustblockheader {
+  color: rgb(100, 99, 99);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+.bottomtrustblock {
+  border: 1px solid black;
+  background-color: black;
+  height: 400px;
+  width: 80%;
+  margin-left: 140px;
+  border-radius: 40px;
+  margin-top: 80px;
+}
+.bottomtrustblock1 {
+  display: flex;
+}
+.ticklogo {
+  display: flex;
+}
+.lefttrustblock a {
+  text-decoration: none;
+  color: grey;
+}
+
+.lefttrustblockhr {
+  width: 60%;
+  position: relative;
+  left: -70px;
+  top: -10px;
+}
+.lefttrustblock {
+  padding: 60px 100px;
+  line-height: 60px;
+  width: 50%;
+}
+.dollar1 {
+  font-size: 50px;
+  color: white;
+}
+.dollar1sub {
+  color: white;
+}
+.dollar {
+  display: flex;
+}
+.purchasebutton1 {
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: orange;
+  border: none;
+}
+.purchasebutton1 a {
+  color: black;
+  font-weight: bolder;
+}
+.purchasebutton2 {
+  width: 40%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(24, 22, 22);
+  border: none;
+}
+.purchasebutton2 a {
+  color: white;
+  font-weight: bolder;
+}
+.lefttrustblock p {
+  font-size: 11px;
+  position: relative;
+  top: -20px;
+  color: grey;
+}
+.righttrustblock {
+  position: relative;
+  top: 60px;
+}
+.righttrustblock p {
+  font-size: 15px;
+  font-weight: bolder;
+  color: grey;
+}
+.ticklogo p {
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 7px;
+}
+.diamondlogo {
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+.trusthr {
+  width: 100%;
+  position: relative;
+  left: -60px;
+  top: -30px;
+}
+.offforstudents {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bolder;
+  color: grey;
+}
+/*-----------footer block starts-----------------*/
+.footerhr {
+  position: relative;
+  top: 80px;
+}
+#footer article {
+  display: flex;
+  padding-top: 100px;
+}
+.footerleft {
+  display: flex;
+  width: 50%;
+  padding-left: 150px;
+}
+.footerleft img {
+  position: relative;
+  top: -30px;
+}
+.footerleft div {
+  margin: 40px;
+  line-height: 25px;
+  color: grey;
+  font-weight: bolder;
+}
+.footerhr1 {
+  width: 0px;
+  height: 180px;
+  position: relative;
+  top: -20px;
+  left: -30px;
+}
+.footerright {
+  display: flex;
+}
+.footerright1 {
+  line-height: 30px;
+  position: relative;
+  top: 30px;
+  padding: 0 40px;
+}
+.footerright1 a {
+  text-decoration: none;
+  color: grey;
+}
+.footerhr2 {
+  position: relative;
+  top: -20px;
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
+  color: grey;
+}
